@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
 }
 
 .container {
@@ -65,8 +66,22 @@ ul li a {
 }
 
 .produtos {
+}
+
+.produtos h2{
     color: #3868d6;
     border-bottom: 3px solid #3868d6;
     margin-bottom: 2em;
     padding: 0 0 16px 0;
+    max-width: 1024px;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    column-gap: 1.4%;
+}
+
+.produto img{
+    max-width: 100%;
 }
