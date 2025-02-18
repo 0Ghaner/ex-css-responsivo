@@ -104,7 +104,7 @@
         background-color: #3868d6;
         border-radius: 5px;
         color: #fff;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
         border: none;
         cursor: pointer;
@@ -116,9 +116,9 @@
 
 @media screen and (min-width: 641px) and (max-width: 1023px){
     .container {
-        max-width: 509px;
+        max-width: 641px;
         width: 100%;
-        margin: 0 4em;
+        margin: 0 auto;
         margin-bottom: 16px;
     }
 
@@ -238,6 +238,7 @@
         font-style: italic;
         color: #fff;
         word-wrap: break-word;
+        margin-right: 2em;
     }
 
     header .container{
@@ -247,15 +248,15 @@
 
     ul {
         list-style: none;
+        margin-top: 16px;
     }
 
     ul li a {
         color: #fff;
         text-decoration: none;
-        color: inherit #fff;
         font-weight: bold;
         font-size: 18px;
-        position: relative;
+        white-space: nowrap;
         margin-right: 3em;
     }
 
@@ -286,31 +287,33 @@
         border-bottom: 3px solid #3868d6;
         margin-bottom: 2em;
         padding: 0 0 16px 0;
-        max-width: 1024px;
+        max-width: 640px;
         font-style: italic;
     }
 
     .produtos h3,
     p {
         margin-bottom: 12px;
+        margin-top: 8px;
     }
 
     .grid-produtos {
         display: grid;
-        grid-template-columns: repeat(4, 24%);
-        column-gap: 1.4%;
+        grid-template-columns: repeat(1, 100%);
+        row-gap: 2%;
     }
 
     .produto img{
         max-width: 100%;
-        background-color: #fff;
+        border-radius: 3px;
+        background: linear-gradient(to bottom, transparent, black);
     }
 
     button {
         background-color: #3868d6;
         border-radius: 5px;
         color: #fff;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: bold;
         border: none;
         cursor: pointer;
